@@ -15,11 +15,11 @@ makeCacheMatrix <- function(x = matrix()) {
       get <- function() x
       # This function is used to obtain the value of the matrix
 
-      setinverse <- function(solve) inv <<- solve
+      setinv <- function(solve) inv <<- solve
       #   The setinverse function uses the inbuilt function 'solve' to determine 
       # the inverse of the matrix x
   
-      getinverse <- function() inv
+      getinv <- function() inv
       #   The getinverse function is used to obtain the value of the inverse function
       # of the matrix
       
